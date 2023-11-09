@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: -;
+  background: rgb(223, 241, 249);
+  display: flex;
+  justify-content: center;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+.tick path {
+  fill: none;
+  stroke: #000;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 32px;
+}
+
+.create {
+  border: 2px solid rgba(125, 133, 172, 0.781);
+  background-color: #bcbcbc4c;
+  border-radius: 12px;
+  cursor: pointer;
+  padding: 8px;
+  font-size: 1rem;
+  letter-spacing: 0.01rem;
+}
+
+.create:active {
+  background-color: rgb(108, 115, 148);
+  color: rgb(255, 255, 255);
+}
+#signouttt {
+  background-color: #f97316;
+  border: 2px solid #f97316;
+  color: #fff;
+}
+#signouttt:hover {
+  background-color: #fdba74;
+}
+#signouttt:active {
+  background-color: #c2410c;
+}
